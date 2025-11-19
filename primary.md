@@ -288,8 +288,7 @@ Git Worktreeを使うと追加のcloneをせずに、同じ.gitを共有して�
 section {
   text-align: center;
 }
-
 </style>
 # これを100倍詳しく書いたのが<br><br>「Claude CodeによるAI駆動開発入門」
 
-![./image/book.png](./image/book.png)
+[![./image/book.png](./image/book.png)](https://www.amazon.co.jp/dp/4297152754/)

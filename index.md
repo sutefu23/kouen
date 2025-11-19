@@ -25,10 +25,10 @@ header: "**著者と深掘るClaude Code×AI駆動開発の最前線**"
   </div>
   <div>
   <p class="text-2xl">
-    株式会社en-gine代表。エンジニア歴10年。<br><br>
-    東京と福岡を拠点に、生成AI・クラウドアーキテクチャ・LLMエージェント技術を活用した業務システム・SaaSの設計開発に従事。<br><br>
-    現在は、AIと人間の協働による「AI駆動開発（AI-Driven Development）」の普及を目指し、企業支援・教育活動も行っている。<br><br>
-   「<strong class="orange">Claude CodeによるAI駆動開発入門</strong>」が技術評論社より12月5日刊行予定。
+    株式会社en-gine代表。エンジニア歴10年。<br>
+    東京と福岡を拠点に、生成AI・クラウドアーキテクチャ・LLMエージェント技術を活用した業務システム・SaaSの設計開発に従事。<br>
+    現在は、AIと人間の協働による「AI駆動開発（AI-Driven Development）」の普及を目指し、企業支援・教育活動も行っている。<br>
+   「<a href="https://www.amazon.co.jp/dp/4297152754/"><strong class="orange">Claude CodeによるAI駆動開発入門</strong></a>」が技術評論社より12月5日刊行予定。
   </p>
   </div>
 </div>
@@ -40,7 +40,9 @@ header: "**著者と深掘るClaude Code×AI駆動開発の最前線**"
 「ソフトウェア開発・言語」ジャンル
   </div>
   <div>
+    <a href="https://www.amazon.co.jp/dp/4297152754/">
     <img src="./image/amazon.png" class="mx-auto" alt="Claude Codeのシェア" />
+    </a>
   </div>
 <div>
 
@@ -71,6 +73,7 @@ header: "**著者と深掘るClaude Code×AI駆動開発の最前線**"
 ---
 
 おまけで初心者の方向けにスライドも用意しました。
+<a href="./primary.html">はじめての Claude Code</a>
 
 <br><i>もう少し基礎的・網羅的に知識が欲しい方は・・</i>
 
@@ -90,7 +93,9 @@ header: "**著者と深掘るClaude Code×AI駆動開発の最前線**"
 5章セキュリティと応用的な活用
 </div>
 <div>
+<a href="https://www.amazon.co.jp/dp/4297152754/">
   <img src="./image/book.png" alt="Claude Codeの本" style="height:50vh"/>
+</a>
 </div>
 <div>
 
@@ -218,7 +223,9 @@ MCPは結構食うので注意。
   - api
   - scheme
 
-- Hooks（最近StopとSubagentStopのみプロンプトも書けるようになった）やSkillsでファイルを作った時、セッション終了時などにプロンプトで命令しておくのはアリだと思っている。
+- Hooks（最近StopとSubagentStopのみプロンプトも書けるようになった）やSkillsでファイルを作った時、セッション終了時などにプロンプトで命令しておくのは実行速度との相談だがアリだと思っている。
+
+あとはカスタムスラッシュコマンドで用意する、GitHub Actionsで更新する、なども事例としてあるようだった。
 
 ---
 
@@ -263,6 +270,8 @@ AIで実装しているとどうしても、コード実装内容の解像度が
 
 専門知識や「なぜそうしたのか」について「Insight」という技術的な解説と補足をつけて出力してくれるようになる。
 
+![alt text](image/explanatory.png)
+
 ---
 
 # 混乱しがちな機能群の特徴と使用例まとめ
@@ -272,7 +281,7 @@ AIで実装しているとどうしても、コード実装内容の解像度が
 - Hooks
 - Skills
 
-⇒　基本的に手順があるものはSkills、専門性が高いものはサブエージェント、MCPにしかない機能はＭＣＰサーバー、確定的な動作をさせたい時はHooks、特定の指示のまとまりを使いたい時はスラッシュコマンド
+⇒　基本的に手順があるものはSkills、専門性が高いものはサブエージェント、MCPにしかない機能はMCPサーバー、確定的な動作をさせたい時はHooks、特定の指示のまとまりを任意のタイミングで使いたい時はスラッシュコマンド
 
 ---
 
@@ -632,7 +641,7 @@ UIコンポーネントはFigmaMCPサーバーで8割9割自動化できる。
 
 GeminiCLIの方がコンテキストが長大（100万トークン）のため、可能な範囲が広い。
 
-Claude Sonnet4.5でも100万トークン対応可能だが、APIのみ、なのとコストが高い。
+Claude Sonnet4.5でも100万トークン対応可能だが、APIのみなのとコストが高い。
 
 
 ---
@@ -655,7 +664,8 @@ Claude Sonnet4.5でも100万トークン対応可能だが、APIのみ、なの�
 
 - お仕事も募集中
 
-- 仲間も募集中なのでカジュアル面談しましょう。
+- AIxシステム開発の引き合いも増加中。
+お仲間募集中なのでカジュアル面談しましょう。
 PM、エンジニア、営業（業務委託や社員登用）
 
 
@@ -665,4 +675,13 @@ PM、エンジニア、営業（業務委託や社員登用）
 
 # 質疑応答
 
+---
 
+<style scoped>
+section {
+  text-align: center;
+}
+</style>
+
+# 本もよろしくお願いします！<br><br>「Claude CodeによるAI駆動開発入門」
+[![./image/book.png](./image/book.png)](https://www.amazon.co.jp/dp/4297152754/)
